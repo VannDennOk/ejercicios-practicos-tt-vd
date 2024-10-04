@@ -18,12 +18,14 @@ Este proyecto es la sumatoria de los ejercicios prácticos realizados durante el
 Ejercicios resueltos por Vanina Denegri.
 <br><a href="https://www.linkedin.com/in/vaninadenegri/">Mi LinkedIn</a>
 <br><a href="https://github.com/VannDennOk">Mi GitHub</a>
+<br>
+<br>
 <br>Todos los autores de los media utilizados en el proyecto serán debidamente mencionados cuando corresponda.
 <br>Se utilizarán media que estén en páginas de licencia gratuita.
 </p>
 <h2>Links de interés</h2>
 <p>Imágenes de uso libre: <a href="https://www.pexels.com/es-es/">pexels</a>
-<br> Envío de formularios: <a href="https://formspree.io">formspree</a>
+<br>Envío de formularios: <a href="https://formspree.io">formspree</a>
 </p>
 <h2>Licencia</h2>
 <p>Este proyecto está bajo la licencia <a href="https://opensource.org/license/MIT">MIT</a></p>

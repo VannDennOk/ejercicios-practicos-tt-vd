@@ -44,21 +44,32 @@ Subí el proyecto desarrollado hasta el momento a un hosting gratuito
             <input type="email" name="email" id="email" placeholder="Ej.: janedoe@mymail.com" size="250"
                 style="width:500px; height:48px;" required><br>
             <br>
-            <datalist id="country">
-                <option value="Argentina"></option>
-                <option value="Chile"></option>
-                <option value="Uruguay"></option>
-            </datalist>
-            <label for="country">País</label><br>
-            <input list="country" name="country" id="country" placeholder="Elegir de la lista"
+            <label for="country">País (con list/datalist)</label><br>
+            <input list="country" name="country" id="inputcountry" placeholder="Elegir de la lista"
                 style="width:500px; height:48px;"><br>
+                <datalist id="country">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Chile">Chile</option>
+                    <option value="Uruguay">Uruguay</option>
+            </datalist>
+            <br>
+            <label for="city">Ciudad (con select/option)</label><br>
+            <select id="city" name="city">
+                <option value="caba">CABA</option>
+                <option value="laplata">La Plata</option>
+                <option value="rosario">Córdoba</option>
+                <option value="rosario">Mendoza</option>
+                <option value="rosario">Rosario</option>
+                <option value="rosario">Ushuaia</option>
+            </select>
+            <br>
             <br>
             <label for="subjet">Asunto</label><br>
             <input type="text" name="subjet" id="subjet" placeholder="Ej.: Envíos" size="50"
                 style="width:500px; height:48px;"><br>
             <br>
             <label for="message">Mensaje</label><br>
-            <textarea name="message" id="messege" rows="10" cols="30" placeholder="Escribir mensaje aquí"
+            <textarea name="message" id="messege" rows="10" cols="30" placeholder="Escribir el mensaje aquí"
                 style="width:500px; height:150px;" required></textarea><br>
             <br>
             <input type="checkbox" name="checkbox" id="checkbox">
