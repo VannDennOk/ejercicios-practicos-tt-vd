@@ -10,7 +10,6 @@ Este proyecto es la sumatoria de los ejercicios prácticos realizados durante el
 <h3>Acceso al proyecto</h3>
 <p>
 <a href="https://github.com/VannDennOk/ejercicios-practicos-tt-vd">Repositorio GitHub</a> 
-<br><a href="https://vanndennok.github.io/ejercicios-practicos-tt-vd/">GitHub Page</a> 
 <br><a href="https://ejercicios-practicos-tt-vd.netlify.app/">Netlify</a>
 </p>
 <h2>Autoría</h2>
