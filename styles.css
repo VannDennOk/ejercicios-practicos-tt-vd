@@ -1,0 +1,82 @@
+
+/* Selector universal = afecta todos los elementos de la página*/
+/* con los valores a continuación se resetean los estilos predeterminados de los distintos navegadores*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Selector etiqueta = aplica estilo a todos los elementos de un tipo*/
+
+h1 {
+    color: purple; /* Aplica el color por "nombre de color"*/
+    font-size: 40px; /* controla el tamaño del texto"*/
+}
+
+h2 {
+    color: #3498db; /* Aplica el color por "valor hexadecimal"*/
+    font-size: 36px; /* controla el tamaño del texto"*/  
+}
+h3 {
+    color: rgb(255, 99, 71);  /* Aplica el color por "valor rgb"*/
+    font-size: 32px; /* controla el tamaño del texto"*/  
+}
+h4 {
+    color: rgba(255, 99, 71, 0.5); /* Aplica el color por "valor rgba" con semitransparencia*/
+    font-size: 28px; /* controla el tamaño del texto"*/     
+}
+h5 {
+    color: palevioletred;
+    font-size: 24px; /* controla el tamaño del texto"*/   
+}
+h6 {
+    color: blue;
+    font-size: 20px; /* controla el tamaño del texto"*/   
+}
+
+h6 {
+    color: plum; /* Cascada: si dos reglas afectan al mismo y tienen la misma especificidad, se aplicará la última, la que está más abajo del código*/  
+}
+
+/* Selector de clase = aplica estilo a todos los elementos de un tipo*/
+
+.header__main{
+    background-color: yellow;
+}
+
+.navbar{
+    background-color: purple;
+}
+
+.nav-list a {
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+.container__headlines{
+    background-color: beige;
+}
+.container__bodies{
+    color: aliceblue; /* Herencia: al aplicar el color en el padre, se aplica en todos los hijos*/
+    background-color: darkslategray;
+}
+
+.footer__main{
+    background-color: blueviolet;
+}
+
+.footer__main a {
+    list-style: none;
+    text-decoration: none;
+    color: azure;
+}
+
+/* Selector ID = para un estilo único - solo puede aplicarse a un elemento específico*/
+#footer{
+    color: antiquewhite;
+    background-color: coral;
+    font-size: 14px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Prácticos Clase 4 | Talento Tech | Vanina Denegri</title>
+    <meta name="author" content="Vanina Denegri">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<!-- 
+    
+//Ejercicio práctico #1: incorporar CSS externo//
+Objetivo: Crear un archivo styles.css, importarlo en tu HTML, y aplicar estilos al header y footer.
+Paso a paso:
+Crear el archivo styles.css: crea un archivo llamado styles.css en la misma carpeta que tu archivo HTML.
+Importar styles.css en tu HTML: dentro del <head> de tu archivo HTML, agrega la siguiente línea: <link rel="stylesheet" href="styles.css">
+Agregar contenido en el HTML: asegúrate de tener un header y un footer en tu archivo HTML.
+<header>
+<h1>Mi Sitio Web</h1>
+</header>
+<footer>
+<p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+</footer>
+Aplicar estilos en el archivo styles.css: estilizar el header y el footer, aplicando un color de fondo y cambiando el estilo de la fuente con las propiedades vistas.
+
+   
+//Ejercicio práctico #2: modificar la barra de navegación (Navbar)//
+Objetivo: cambiar el color de los enlaces y el fondo del menú en la lista de navegación.
+Paso a paso:
+1.Asegurate de tener una lista de navegación como esta:
+    <ul class="nav-list">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+Aplica los siguientes estilos en styles.css:
+Utilizá la propiedad “list-style” y el valor “none” para quitarle la viñeta a la lista desordenada.
+Utilizá la propiedad “text-decoration” y el valor “none” para quitarle la apariencia de enlace al anchor dentro de la lista. Utiliza la propiedad color para modificar el color del texto dentro del enlace.
+Este estilo le dará a tu menú de navegación un aspecto más agradable y profesional, mejorando no sólo el diseño y la accesibilidad sino la experiencia de quienes visiten tu sitio web.
+-->
+
+<body>
+    <header class="header__main">
+        <h1>Mi Sitio Web de Prueba</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Acerca de</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container__headlines">
+                <h2>Headline 2</h2>
+                <h3>Headline 3</h3>
+                <h4>Headline 4</h4>
+                <h5>Headline 5</h5>
+                <h6>Headline 6</h6>
+            </div>
+            <div class="container__bodies">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit corrupti necessitatibus ad unde accusamus? Quae saepe magnam eos repudiandae ab blanditiis! Molestias ipsam minus pariatur iure a aliquid quisquam odit.</p>
+            </div>
+        </section>
+        <section>
+            <footer class="footer__main">
+                <a href="/index.html">Volver al índice general</a>
+            </footer>
+        </section>
+    </main>
+
+    <footer id="footer"> 
+        <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
