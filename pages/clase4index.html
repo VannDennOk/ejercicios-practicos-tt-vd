@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios Prácticos Clase 4 | Talento Tech | Vanina Denegri</title>
     <meta name="author" content="Vanina Denegri">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <!-- 
@@ -44,7 +44,8 @@ Este estilo le dará a tu menú de navegación un aspecto más agradable y profe
 
 <body>
     <header class="header__main">
-        <h1>Mi Sitio Web de Prueba</h1>
+        <h1>CLASE 4: INTRODUCCIÓN A CSS (SELECTORES Y COLORES)</h1>
+        <p>Los links de la Barra de Navegación tienen estilos aplicados para superponer los preestablecidos</p>
         <nav class="navbar">
             <ul class="nav-list">
                 <li><a href="#">Inicio</a></li>
@@ -58,25 +59,27 @@ Este estilo le dará a tu menú de navegación un aspecto más agradable y profe
     <main>
         <section>
             <div class="container__headlines">
-                <h2>Headline 2</h2>
-                <h3>Headline 3</h3>
-                <h4>Headline 4</h4>
-                <h5>Headline 5</h5>
-                <h6>Headline 6</h6>
+                <h2>Headline 2: selector universal + color por nombre + fontsize 36px</h2>
+                <h3>Headline 3: selector universal + color por valor hexadecimal + fontsize 32px</h3>
+                <h4>Headline 4: selector universal + color por valor rgb + fontsize 28px</h4>
+                <h5>Headline 5: selector universal + color por valor rgba con transparencia 0.5 + fontsize 24px</h5>
+                <h6>Headline 6: selector universal + color por valor rgba con transparencia 20% + fontsize 20px</h6>
             </div>
-            <div class="container__bodies">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit corrupti necessitatibus ad unde accusamus? Quae saepe magnam eos repudiandae ab blanditiis! Molestias ipsam minus pariatur iure a aliquid quisquam odit.</p>
+            <div class="container__texto">
+                <p>Texto: selector de clase para el div que lo contiene. Herencia: al aplicar el color en el padre, se aplica en todos los hijos.</p>
+                <p class="texto">Pero un texto puede tener su propia clase para diferenciarse de los demás</p>
             </div>
         </section>
         <section>
             <footer class="footer__main">
-                <a href="index.html">Volver al índice general</a>
+                <p>Este es el footer de la sección. Pueden haber un footer general y un footer por sección. <a href="/index.html">Volver al índice general</a></p>
             </footer>
         </section>
     </main>
 
     <footer id="footer"> 
         <p>© 2024 Mi Sitio Web. Todos los derechos reservados.</p>
+        <p>El footer tiene Selector ID = para un estilo único - solo puede aplicarse a un elemento específico</p>
     </footer>
 </body>
 
