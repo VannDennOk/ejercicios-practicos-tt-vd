@@ -83,3 +83,84 @@ h1 {
     background-color: black;
     font-size: 14px;
 }
+
+/* Aplicación de Google Fonts en clase 5*/
+.header_clase5 {
+    font-family: "Barrio", system-ui;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+  }
+
+  .txt_clase5{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.link_clase5 {
+    list-style: none;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: normal;
+    color: beige;
+}
+
+.txt_clase5-footer{
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-style: normal;
+    color: beige; 
+}
+
+/* Aplicación de Backgrounds en clase 5*/
+
+.bg_colorsolido{
+    background-color: #800080;
+    height: 20rem;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border: 2px solid black;
+}
+
+.bg_imagen-cover{
+    background-image: url("../images/clase5/pexels-koolshooters-6983054.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border: 2px solid black;
+}
+
+.bg_imagen-contain{
+    background-image: url("../images/clase5/pexels-koolshooters-6983054.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20rem;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border: 2px solid black;
+}
+
+.bg_degradado{    
+    background: linear-gradient(46deg, #581490,#6f1382,#6a1463);
+    height: 20rem;
+    margin: 1rem;
+    padding: 2rem 1rem;
+    border: 2px solid black;
+}
+
+.recuadro {
+    background-color: black;
+    color: beige;
+    width: 25%;
+    padding: 0.5rem;
+}
